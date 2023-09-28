@@ -7,10 +7,10 @@
   font-family: "Roboto Condensed", sans-serif;
 }
 h1 {
-  color: crimson;
+  color: rgb(241, 37, 5);
   margin-top: 20px;
 }
-.wrapper {
+.head {
   width: 1200px;
   max-width: 90%;
   margin: auto;
@@ -31,7 +31,7 @@ label {
   padding-right: 10px;
   font-size: larger;
   font-weight: 500;
-  color: crimson;
+  color: black;
 }
 
 select {
@@ -40,6 +40,34 @@ select {
 }
 
 .button-1 {
+  background-color: rgb(26, 41, 249);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-left: 15px;
+}
+.button-2 {
   background-color: crimson;
   border-radius: 8px;
   border-style: none;
@@ -67,17 +95,18 @@ select {
   touch-action: manipulation;
   margin-left: 15px;
 }
-
-.button-1:hover,
-.button-1:focus {
+.button-2:focus {
   background-color: #f082ac;
 }
+.button-1:focus {
+  background-color: #8882f0;
+}
 
-#sg {
+#sgpa {
   margin: 1.5rem;
   font-size: xx-large;
   font-weight: 900;
-  color: crimson;
+  color: rgb(43, 28, 249);
 }
 
 .footer {
